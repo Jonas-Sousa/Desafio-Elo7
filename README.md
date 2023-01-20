@@ -4,7 +4,7 @@
 
 O objetivo do Desafio Elo7 é criar uma landing page com informações sobre a empresa o no final da página exibir as vagas disponiveis.
 
-<h3>Deployhttps://desafio-elo7-12.vercel.app</h3>
+<h3>Deploy https://desafio-elo7-12.vercel.app</h3>
 
 
 # Passos concluidos
