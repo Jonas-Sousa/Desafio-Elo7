@@ -1,0 +1,49 @@
+@import './index.scss';
+
+#vagas-aberto {
+    margin: 2rem 2rem;
+        h1 {
+        @include texto-titulo ();
+        margin: 5rem 0;
+        
+    }
+    h2 {
+        font-size: $tamanho-letra-SubTitulo;
+        color: $cor-letra-titulos;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 2.5rem;
+
+    }
+    .lista-vagas {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        
+        
+        li {
+            margin-bottom: 1rem;
+        }
+        a {
+            text-decoration: none; 
+            font-size: $tamanho-letra-paragrafo;
+            color: $cor-letra-destaque;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: 0.4s;
+            &:hover {
+                color: $cor-hover-letra-destaque;
+                transition: 0.4s;
+            }
+        }
+        span {
+            text-decoration: none; 
+            font-size: $tamanho-letra-paragrafo;
+            color: $cor-letra-paragrafos;
+            text-transform: uppercase;
+            font-weight: bold;
+            display: block;
+           
+        }
+    }
+}
