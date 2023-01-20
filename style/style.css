@@ -231,6 +231,11 @@ html, body {
   align-items: center;
   padding-bottom: 1rem;
 }
+@media (min-width: 1400px) {
+  .equipe {
+    padding: 0;
+  }
+}
 .equipe .titulo-equipe {
   font-size: 1.5rem;
   font-weight: bold;
@@ -239,6 +244,17 @@ html, body {
   text-align: center;
   width: 20rem;
 }
+@media (min-width: 1400px) {
+  .equipe .titulo-equipe {
+    width: 25rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .equipe .carrosel-mobile-equipe {
+    display: none;
+  }
+}
 .equipe .carrosel-mobile-equipe img {
   padding: 3rem 0;
   height: 25rem;
@@ -246,9 +262,23 @@ html, body {
 .equipe .img-equipe {
   display: none;
 }
+@media (min-width: 768px) {
+  .equipe .img-equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+}
 .equipe .img-equipe img {
   margin: 2rem;
   height: 16rem;
+}
+@media (min-width: 768px) {
+  .equipe .img-equipe img {
+    margin: 2rem;
+  }
 }
 
 html, body {

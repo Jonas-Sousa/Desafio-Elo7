@@ -4,13 +4,21 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 1rem;
-    
+    @media (min-width: map-get($breakpoint, "xxl")) {
+        padding: 0;
+    }
     .titulo-equipe {
         @include texto-titulo();
         width: 20rem;
-        
+        @media (min-width: map-get($breakpoint, "xxl")) {
+            width: 25rem;
+            font-size: 2rem;
+        }
     }
     .carrosel-mobile-equipe{
+        @media (min-width: map-get($breakpoint, "md")) {
+            display: none;
+        }
         img {
             padding: 3rem 0;
             height: 25rem;
@@ -18,10 +26,21 @@
     }
     .img-equipe {
         display: none;
+        @media (min-width: map-get($breakpoint, "md")) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin:2rem 0;
+            
+            
+        }
         img {
             margin: 2rem ;
             height: 16rem;
-            
+            @media (min-width: map-get($breakpoint, "md")) {
+                margin: 2rem;
+            }
         }
     }
 }

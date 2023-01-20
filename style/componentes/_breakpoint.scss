@@ -7,28 +7,28 @@ $breakpoint: (
     "xxl": 1400px
 );
 
-@mixin small {
-    @media (min-width: map-get($breakpoint, "sm")) {
+// @mixin small {
+//     @media (min-width: map-get($breakpoint, "sm")) {
         
-    }
-}
-@mixin medium {
-    @media (min-width: map-get($breakpoint, "md")) {
+//     }
+// }
+// @mixin medium {
+//     @media (min-width: map-get($breakpoint, "md")) {
         
-    }
-}
-@mixin large {
-    @media (min-width: map-get($breakpoint, "lg")) {
+//     }
+// }
+// @mixin large {
+//     @media (min-width: map-get($breakpoint, "lg")) {
         
-    }
-}
-@mixin extra-large {
-    @media (min-width: map-get($breakpoint, "xl")) {
+//     }
+// }
+// @mixin extra-large {
+//     @media (min-width: map-get($breakpoint, "xl")) {
         
-    }
-}
-@mixin max-large {
-    @media (min-width: map-get($breakpoint, "xxl")) {
+//     }
+// }
+// @mixin max-large {
+//     @media (min-width: map-get($breakpoint, "xxl")) {
         
-    }
-}
+//     }
+// }
