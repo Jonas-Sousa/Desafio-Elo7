@@ -29,8 +29,16 @@ html, body {
   overflow-x: hidden;
 }
 
+.img-container {
+  overflow-x: hidden;
+}
 .img-container .inner-img-container img {
   position: relative;
+}
+@media (min-width: 992px) {
+  .img-container .inner-img-container img {
+    width: 100%;
+  }
 }
 .img-container .texo-header {
   display: flex;
@@ -47,6 +55,22 @@ html, body {
   text-shadow: 5px 1px 2px rgba(110, 107, 107, 0.55);
   font-weight: bold;
 }
+@media (min-width: 768px) {
+  .img-container .texo-header .inner-img-text h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 992px) {
+  .img-container .texo-header .inner-img-text h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1400px) {
+  .img-container .texo-header .inner-img-text h1 {
+    font-size: 5rem;
+    margin-top: -5rem;
+  }
+}
 .img-container .texo-header p {
   text-align: justify;
   padding: 2rem;
@@ -54,6 +78,12 @@ html, body {
   color: rgba(153, 151, 150, 0.9607843137);
   font-weight: bold;
   line-height: 1.8;
+}
+@media (min-width: 992px) {
+  .img-container .texo-header p {
+    text-align: center;
+    margin: 0 2rem;
+  }
 }
 
 html, body {
