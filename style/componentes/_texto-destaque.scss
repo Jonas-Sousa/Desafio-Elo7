@@ -1,0 +1,29 @@
+@import './index.scss';
+
+.texto-destaque {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    a {
+        color: $cor-letra-destaque;
+        font-size: $tamanho-letra-titulo;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.4s;
+        &:hover {
+            color: $cor-hover-letra-destaque;
+            transition: 0.4s;
+        }
+    }
+    span {
+        border-top: 3px solid $cor-letra-paragrafos;
+        padding-top: 1rem;
+        &:hover {
+            border-top: 3px solid rgb(48, 48, 48);
+            
+        }
+        
+    }
+    
+}
