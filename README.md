@@ -46,5 +46,5 @@ O Elo7 disponibilizou os layout desktop como modelo do projeto, eu fiz os demais
 
 # Autor<br>
 
-Jonas Sousa doos Santos Salgado Ferreira<br>
+Jonas Sousa dos Santos Salgado Ferreira<br>
 https://www.linkedin.com/in/jonas-sousa-dev/
