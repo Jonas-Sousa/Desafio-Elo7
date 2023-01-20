@@ -4,18 +4,54 @@
     
 }
 
+
 .CEO-container {
     
+    @media (min-width: map-get($breakpoint, "lg")) {
+        display: flex;   
+        flex-direction: column;
+        align-items: center;  
+        margin-top: 3rem;      
+    }
+    
+    @media (min-width: map-get($breakpoint, "xxl")) {
+        display: flex;   
+        flex-direction: row;
+        justify-content: space-around;  
+        
+          
+    }
+   
     .CEO-placeholder img {
         width: 100%;
-        padding-top: 4rem;
+        @media (min-width: map-get($breakpoint, "lg")) {
+            width: 35rem;
+            margin: 4rem 0;
+        }
+       
     }
     .CEO-text {
         margin: 2rem 0;
-        
+        @media (min-width: map-get($breakpoint, "lg")) {
+            width: 35rem;
+            margin: 0;
+            
+        }
+        @media (min-width: map-get($breakpoint, "xxl")) {
+            width: 35rem;
+            
+            
+        }
         h1 {
             @include texto-titulo ();
-           
+            @media (min-width: map-get($breakpoint, "lg")) {
+                text-align: center;
+                
+            }
+            @media (min-width: map-get($breakpoint, "xxl")) {
+                text-align: start;
+                margin-top: 3rem;
+            }
         }
         h2 {
             font-style: italic;
@@ -24,10 +60,28 @@
             text-align: center;
             font-size: $tamanho-letra-titulo;
             margin-top: 0.5rem;
-            
+            @media (min-width: map-get($breakpoint, "lg")) {
+                text-align: center;
+                margin-top: 1rem;
+            }
+            @media (min-width: map-get($breakpoint, "xxl")) {
+                text-align: start;
+                
+            }
         }
         p {
             @include texto-paragrafo ();
+            @media (min-width: map-get($breakpoint, "lg")) {
+                padding: 3rem 0;
+                margin: 0;
+                        
+            }
+            @media (min-width: map-get($breakpoint, "xxl")) {
+                padding: 4rem 0;
+               
+                        
+            }
         }
     }
 }    
+

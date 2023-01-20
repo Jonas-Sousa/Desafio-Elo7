@@ -125,12 +125,43 @@ html, body {
   background-color: rgba(240, 240, 240, 0.694);
 }
 
+@media (min-width: 992px) {
+  .CEO-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+}
+@media (min-width: 1400px) {
+  .CEO-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
 .CEO-container .CEO-placeholder img {
   width: 100%;
-  padding-top: 4rem;
+}
+@media (min-width: 992px) {
+  .CEO-container .CEO-placeholder img {
+    width: 35rem;
+    margin: 4rem 0;
+  }
 }
 .CEO-container .CEO-text {
   margin: 2rem 0;
+}
+@media (min-width: 992px) {
+  .CEO-container .CEO-text {
+    width: 35rem;
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .CEO-container .CEO-text {
+    width: 35rem;
+  }
 }
 .CEO-container .CEO-text h1 {
   font-size: 1.5rem;
@@ -138,6 +169,17 @@ html, body {
   color: #7D7873;
   text-transform: uppercase;
   text-align: center;
+}
+@media (min-width: 992px) {
+  .CEO-container .CEO-text h1 {
+    text-align: center;
+  }
+}
+@media (min-width: 1400px) {
+  .CEO-container .CEO-text h1 {
+    text-align: start;
+    margin-top: 3rem;
+  }
 }
 .CEO-container .CEO-text h2 {
   font-style: italic;
@@ -147,6 +189,17 @@ html, body {
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
+@media (min-width: 992px) {
+  .CEO-container .CEO-text h2 {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .CEO-container .CEO-text h2 {
+    text-align: start;
+  }
+}
 .CEO-container .CEO-text p {
   text-align: justify;
   padding: 2rem;
@@ -154,6 +207,17 @@ html, body {
   color: rgba(153, 151, 150, 0.9607843137);
   font-weight: bold;
   line-height: 1.8;
+}
+@media (min-width: 992px) {
+  .CEO-container .CEO-text p {
+    padding: 3rem 0;
+    margin: 0;
+  }
+}
+@media (min-width: 1400px) {
+  .CEO-container .CEO-text p {
+    padding: 4rem 0;
+  }
 }
 
 html, body {
