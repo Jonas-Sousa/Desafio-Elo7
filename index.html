@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
     <title>Elo7</title>
@@ -43,12 +44,12 @@
     </header>    
         <main>
             <!-- Inicio sessão Palavras do CEO e equipe Elo7-->
-            <section >
-                <div >
-                    <figure >
+            <section class="CEO-Equipe">
+                <div class="CEO-container">
+                    <figure class="CEO-placeholder">
                         <img src="./img/placeholder-video.png" alt="video com o discurso do CEO do Elo7">
                     </figure>
-                    <div>
+                    <div class="CEO-text">
                         <h1>Palavras do CEO</h1>
                         <h2>Carlos Curioni</h2>
                         <p>
@@ -60,11 +61,37 @@
                         </p>
                     </div>
                 </div>
-                <div >
-                    <div >
+                <div class="equipe">
+                    <div class="titulo-equipe">
                         <h1>Conheça nosso time fora de série</h1>
                     </div>
-                    <ul>
+                    <div class="carrosel-mobile-equipe">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./img/camila.png" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/guto.png" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/david.png" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./img/beatriz.png" class="rounded mx-auto d-block" alt="...">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <ul class="img-equipe">
                         <li>
                             <figure>
                                 <img src="./img/camila.png" alt="Camila">
@@ -89,7 +116,7 @@
                 </div>  
                 
             </section>
-            <!-- Final sessão Palavras do CEO e equipe Elo7-->
+        <!-- Final sessão Palavras do CEO e equipe Elo7-->
 
             <!-- Inicio sessão Diferenciais do Elo7-->
             <section>   
@@ -168,5 +195,7 @@
             <!-- Final sessão Vagas em aberto no Elo7-->
         </main>
     </header>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>

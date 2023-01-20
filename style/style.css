@@ -6,6 +6,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 html, body {
   font-family: "Raleway", sans-serif;
   overflow-x: hidden;
@@ -76,4 +80,75 @@ html, body {
 }
 .texto-destaque span:hover {
   border-top: 3px solid rgb(48, 48, 48);
+}
+
+html, body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+.CEO-Equipe {
+  background-color: rgba(240, 240, 240, 0.694);
+}
+
+.CEO-container .CEO-placeholder img {
+  width: 100%;
+  padding-top: 4rem;
+}
+.CEO-container .CEO-text {
+  margin: 2rem 0;
+}
+.CEO-container .CEO-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7D7873;
+  text-transform: uppercase;
+  text-align: center;
+}
+.CEO-container .CEO-text h2 {
+  font-style: italic;
+  font-weight: 400;
+  color: #FDB933;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.CEO-container .CEO-text p {
+  text-align: justify;
+  padding: 2rem;
+  font-size: 1rem;
+  color: rgba(153, 151, 150, 0.9607843137);
+  font-weight: bold;
+  line-height: 1.8;
+}
+
+html, body {
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+
+.equipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+.equipe .titulo-equipe {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #7D7873;
+  text-transform: uppercase;
+  text-align: center;
+  width: 20rem;
+}
+.equipe .carrosel-mobile-equipe img {
+  padding: 3rem 0;
+  height: 25rem;
+}
+.equipe .img-equipe {
+  display: none;
+}
+.equipe .img-equipe img {
+  margin: 2rem;
+  height: 16rem;
 }/*# sourceMappingURL=style.css.map */

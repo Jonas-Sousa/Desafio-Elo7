@@ -1,0 +1,33 @@
+@import './index.scss';
+.CEO-Equipe {
+    background-color: rgba(240, 240, 240, 0.694);
+    
+}
+
+.CEO-container {
+    
+    .CEO-placeholder img {
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .CEO-text {
+        margin: 2rem 0;
+        
+        h1 {
+            @include texto-titulo ();
+           
+        }
+        h2 {
+            font-style: italic;
+            font-weight: 400;
+            color: $cor-letra-CEO;
+            text-align: center;
+            font-size: $tamanho-letra-titulo;
+            margin-top: 0.5rem;
+            
+        }
+        p {
+            @include texto-paragrafo ();
+        }
+    }
+}    
