@@ -4,6 +4,9 @@
 
 O objetivo do Desafio Elo7 é criar uma landing page com informações sobre a empresa o no final da página exibir as vagas disponiveis.
 
+<h3>Deploy https://desafio-elo7-ebon.vercel.app</h3>
+
+
 # Passos concluidos
  Crie um repositório no seu Github e commitar toda progressão do projeto;<br>
  Pegar os dados das vagas desta <a href="http://www.mocky.io/v2/5d6fb6b1310000f89166087b">API</a>;<br>
