@@ -37,7 +37,12 @@ O Elo7 disponibilizou os layout desktop como modelo do projeto, eu fiz os demais
 ![layout-tablet](https://user-images.githubusercontent.com/112590170/213780865-4b8b8494-d6b2-4de7-b1b8-146f605407d4.png)
 
 <h2> Layout Desktop </h2>
+
 ![vagas](https://user-images.githubusercontent.com/112590170/213780910-ff473d4e-fcaa-4cae-890c-3e4aa2bec4d5.png)
+
+<h2> Tipografia </h2>
+
+![tipografia](https://user-images.githubusercontent.com/112590170/213782377-e6918ac7-fa13-4e11-9f5f-dc15ca433773.png)
 
 # Autor<br>
 
