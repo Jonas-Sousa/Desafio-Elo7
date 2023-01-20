@@ -1,4 +1,4 @@
-const API_URL = "http://www.mocky.io/v2/5d6fb6b1310000f89166087b";
+const API_URL = "https://www.mocky.io/v2/5d6fb6b1310000f89166087b";
 const DEFAULT_URL = "https://elo7.gupy.io/";
 
 let ul = document.getElementById ("lista-de-vagas")
