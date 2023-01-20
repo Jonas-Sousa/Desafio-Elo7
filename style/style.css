@@ -355,6 +355,11 @@ html, body {
 #vagas-aberto {
   margin: 2rem 2rem;
 }
+@media (min-width: 992px) {
+  #vagas-aberto {
+    margin: 0 6rem 5rem 6rem;
+  }
+}
 #vagas-aberto h1 {
   font-size: 1.5rem;
   font-weight: bold;
@@ -377,6 +382,12 @@ html, body {
 }
 #vagas-aberto .lista-vagas li {
   margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  #vagas-aberto .lista-vagas li {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 #vagas-aberto .lista-vagas a {
   text-decoration: none;

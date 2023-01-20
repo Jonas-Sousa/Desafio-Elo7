@@ -2,7 +2,13 @@
 
 #vagas-aberto {
     margin: 2rem 2rem;
-        h1 {
+   
+    @media (min-width: map-get($breakpoint, "lg")) {
+        margin: 0 6rem 5rem 6rem;
+        
+    }
+    
+    h1 {
         @include texto-titulo ();
         margin: 5rem 0;
         
@@ -22,6 +28,12 @@
         
         
         li {
+            @media (min-width: map-get($breakpoint, "lg")) {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            
             margin-bottom: 1rem;
         }
         a {
