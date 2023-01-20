@@ -1,0 +1,18 @@
+// Funções 
+
+@mixin texto-titulo () {
+    font-size: $tamanho-letra-titulo;
+    font-weight: bold;
+    color: $cor-letra-titulos;
+    text-transform: uppercase;
+    text-align: center;
+};
+
+@mixin texto-paragrafo () {
+    text-align: justify;
+    padding: 2rem;
+    font-size: $tamanho-letra-paragrafo;
+    color: $cor-letra-paragrafos;
+    font-weight: bold;
+    line-height: 1.8;
+};
